@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M7_Dz</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- шапка сайта -->
+    <header class="header">
+      <!-- верняя чать шапки десктопная версия -->
+      <div class="center header__top_desk">
+        <!-- лого -->
+        <a href="#"
+          ><img src="./images/header-logo.png" alt="logo" class="header__logo"
+        /></a>
+
+        <!-- навигация -->
+        <nav class="header__navs">
+          <a class="header__nav" href="#">Black</a>
+          <a class="header__nav" href="#">Green</a>
+          <a class="header__nav" href="#">White</a>
+          <a class="header__nav" href="#">Oolong</a>
+          <a class="header__nav" href="#">Pu-erh</a>
+        </nav>
+
+        <!-- личный кабинет, поиск -->
+        <div class="header__personal">
+          <div class="header__profile">
+            <a href="#"
+              ><img src="./images/header-basket.png" alt="basket"
+            /></a>
+            <a href="#"
+              ><img src="./images/header-profile.png" alt="profile"
+            /></a>
+          </div>
+          <a href="#" class="header__search"
+            ><img src="./images/header-search.png" alt="search"
+          /></a>
+        </div>
+      </div>
+
+      <!-- верняя чать шапки мобильная версия -->
+      <div class="header__top_mobile">
+        <img click
+          src="./images/header-burger.png"
+          alt="burger"
+          class="header__top_mobile_burger"
+        />
+        <a href="#"
+          ><img src="./images/header-logo.png" alt="logo" class="header__logo"
+        /></a>
+        <!-- личный кабинет, поиск -->
+        <div class="header__personal">
+          <div class="header__profile">
+            <a href="#"
+              ><img src="./images/header-basket.png" alt="basket"
+            /></a>
+            <a href="#"
+              ><img src="./images/header-profile.png" alt="profile"
+            /></a>
+          </div>
+          <a href="#" class="header__search"
+            ><img src="./images/header-search.png" alt="search"
+          /></a>
+        </div>
+        <!-- навигация -->
+        <nav class="header__navs">
+          <a class="header__nav" href="#">Black</a>
+          <a class="header__nav" href="#">Green</a>
+          <a class="header__nav" href="#">White</a>
+          <a class="header__nav" href="#">Oolong</a>
+          <a class="header__nav" href="#">Pu-erh</a>
+        </nav>
+      </div>
+
+      <!-- банер шапки -->
+      <div class="center header__banner">
+        <h1 class="header__title">
+          A cup of tea is a moment of calm in the chaos of life
+        </h1>
+        <p class="header__text">
+          Wide selection of high-quality teas from all over the world, carefully
+          curated by tea experts.
+        </p>
+      </div>
+    </header>
+
+    <!--  -->
+    <!-- контент -->
+
+    <main class="main">
+      <!-- цитата -->
+      <blockquote class="quote center">
+        <p class="quote__text">
+          "Tea is not just a drink, it's a way of life and a way to connect with
+          our loved ones."
+        </p>
+      </blockquote>
+
+      <!-- коллекция чая -->
+      <section class="products center">
+        <h2 class="products__title">Explore our Collections</h2>
+        <div class="products__items">
+          <article class="products__item">
+            <img
+              src="./images/products-item1.png"
+              alt="item1"
+              class="products__img"
+            />
+            <a href="#" class="products__text">Black</a>
+          </article>
+          <article class="products__item">
+            <img
+              src="./images/products-item2.png"
+              alt="item2"
+              class="products__img"
+            />
+            <a href="#" class="products__text">Green</a>
+          </article>
+          <article class="products__item">
+            <img
+              src="./images/products-item3.png"
+              alt="item3"
+              class="products__img"
+            />
+            <a href="#" class="products__text">White</a>
+          </article>
+          <article class="products__item">
+            <img
+              src="./images/products-item4.png"
+              alt="item4"
+              class="products__img"
+            />
+            <a href="#" class="products__text">Oolong</a>
+          </article>
+          <article class="products__item">
+            <img
+              src="./images/products-item5.png"
+              alt="item5"
+              class="products__img"
+            />
+            <a href="#" class="products__text">Pu-erh</a>
+          </article>
+        </div>
+      </section>
+
+      <!-- отзывы клиентов -->
+      <section class="reviews center">
+        <h2 class="reviews__title">What our Clients say</h2>
+        <div class="reviews__items">
+          <article class="reviews__item">
+            <p class="reviews__item_text">
+              "As a tea enthusiast, I have tried teas from all over the world,
+              but this tea store truly stands out. Their teas are of the highest
+              quality and the variety is impressive. This is definitely a tea
+              store that every tea lover should visit."
+            </p>
+            <p class="reviews__item_sign">Alice</p>
+          </article>
+          <article class="reviews__item">
+            <p class="reviews__item_text">
+              "This tea store is my go-to for all my tea needs. Their selection
+              is unbeatable and the quality of their teas is exceptional."
+            </p>
+            <p class="reviews__item_sign">Mad-Hatter</p>
+          </article>
+          <article class="reviews__item">
+            <p class="reviews__item_text">
+              "If you're a tea lover, you must visit this tea store. The
+              selection is vast and the quality is outstanding. I guarantee you
+              won't be disappointed."
+            </p>
+            <p class="reviews__item_sign">Dormouse</p>
+          </article>
+          <article class="reviews__item reviews__item4">
+            <p class="reviews__item_text">
+              "I am not a big tea drinker, but this tea store has converted me.
+              I highly recommend this tea store to anyone looking for a
+              high-quality tea experience."
+            </p>
+            <p class="reviews__item_sign">March Hare</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- блог -->
+      <section class="blog center">
+        <h2 class="blog__title">Our Tea Blog</h2>
+        <div class="blog__items">
+          <artile class="blog__item">
+            <img
+              src="./images/blog_img1.png"
+              alt="itemFoto"
+              class="blog__item_img"
+            />
+            <div class="blog__item_article">
+              <div class="blog__item_description">
+                <p class="blog__item_text">
+                  Tea Time Travels: Funny Moments from Around the World
+                </p>
+
+                <p class="blog__item_author">by Robinson Crusoe</p>
+              </div>
+              <a href="" class="blog__item_more">Read ></a>
+            </div>
+          </artile>
+          <artile class="blog__item">
+            <img
+              src="./images/blog_img2.png"
+              alt="itemFoto"
+              class="blog__item_img"
+            />
+            <div class="blog__item_article">
+              <div class="blog__item_description">
+                <p class="blog__item_text">The Role of Tea in Mental Health</p>
+                <p class="blog__item_author">by Joker</p>
+              </div>
+              <a href="#" class="blog__item_more">Read ></a>
+            </div>
+          </artile>
+          <artile class="blog__item">
+            <img
+              src="./images/blog_img3.png"
+              alt="itemFoto"
+              class="blog__item_img"
+            />
+            <div class="blog__item_article">
+              <div class="blog__item_description">
+                <p class="blog__item_text">
+                  Tea-rific Tales: Hilarious Stories from Tea Lovers
+                </p>
+                <p class="blog__item_author">by Casper the Friendly Ghost</p>
+              </div>
+              <a href="" class="blog__item_more">Read ></a>
+            </div>
+          </artile>
+          <artile class="blog__item">
+            <img
+              src="./images/blog_img4.png"
+              alt="itemFoto"
+              class="blog__item_img"
+            />
+            <div class="blog__item_article">
+              <div class="blog__item_description">
+                <p class="blog__item_text">
+                  Tea and Caffeine: Effects on the Brain and Behavior
+                </p>
+                <p class="blog__item_author">by Author Authorius</p>
+              </div>
+              <a href="" class="blog__item_more">Read ></a>
+            </div>
+          </artile>
+        </div>
+        <button class="blog__btn">View all</button>
+      </section>
+
+      <!-- присоединиться -->
+      <section class="join center">
+        <h2 class="join__title">Want to know more?</h2>
+        <article class="join__conditions">
+          <div class="join__conditionsText join__conditions_box">
+            Join our mailing list and stay up-to-date with the latest news,
+            promotions, and exclusive offers from our tea store. Be the first to
+            know about new tea arrivals, seasonal blends, and special discounts.
+            Don't miss out on the tea-rrific perks - sign up today!
+          </div>
+          <div class="join__conditionsData join__conditions_box">
+            <div class="join__form">
+              <input
+                type="text"
+                placeholder="name@email.com"
+                class="join__input"
+              />
+              <button class="join__input_btn">Join</button>
+            </div>
+            <div class="join__privacy">
+              <input
+                type="checkbox"
+                class="join__checkbox"
+                id="join__checkbox"
+              />
+              <label for="join__checkbox" class="join__checkbox_text"
+                >We take your privacy seriously and are committed to protecting
+                your personal information. By subscribing to our mailing list,
+                you are consenting to receive periodic emails from us about our
+                products, promotions, and other tea-related information.</label
+              >
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- приоритеты -->
+      <section class="prioritise center">
+        <h2 class="prioritise__title">We Prioritise</h2>
+        <div class="prioritise__items">
+          <article class="prioritise__item">
+            <p class="prioritise__item_title">Single garden teas</p>
+            <p class="prioritise__item_text">Complete transparency</p>
+            <img
+              src="./images/prioritise-item1.png"
+              alt="prioritise__item"
+              class="prioritise__item_img"
+            />
+          </article>
+          <article class="prioritise__item">
+            <p class="prioritise__item_title">Only Loose leaf tea</p>
+            <p class="prioritise__item_text">Best Drinking Experience</p>
+            <img
+              src="./images/prioritise-item2.png"
+              alt="prioritise__item"
+              class="prioritise__item_img"
+            />
+          </article>
+          <article class="prioritise__item">
+            <p class="prioritise__item_title">Customer support</p>
+            <p class="prioritise__item_text">No bots, no automated replies</p>
+            <img
+              src="./images/prioritise-item3.png"
+              alt="prioritise__item"
+              class="prioritise__item_img"
+            />
+          </article>
+          <article class="prioritise__item">
+            <p class="prioritise__item_title">Fast shipping</p>
+            <p class="prioritise__item_text">Save, Convenient, Reliable</p>
+            <img
+              src="./images/prioritise-item4.png"
+              alt="prioritise__item"
+              class="prioritise__item_img"
+            />
+          </article>
+        </div>
+      </section>
+
+      <!--  -->
+      <!-- подвал -->
+      <footer class="footer center">
+        <!-- верняя часть подава -->
+        <section class="footer__info">
+          <!-- Верхняя левая часть подвала -->
+          <div class="footer__info_left footer__info_box">
+            <!-- продукты -->
+            <article class="footer__products">
+              <h3 class="footer__info_title">Products</h3>
+              <a href="#" class="footer__info_link">Black tea</a>
+              <a href="#" class="footer__info_link">Green tea</a>
+              <a href="#" class="footer__info_link">White tea</a>
+              <a href="#" class="footer__info_link">Oolong tea</a>
+              <a href="#" class="footer__info_link">Pu-erh tea</a>
+            </article>
+            <!-- о компании -->
+            <article class="footer__company">
+              <h3 class="footer__info_title">Company</h3>
+              <a href="#" class="footer__info_link">About Us</a>
+              <a href="#" class="footer__info_link">Contact Us</a>
+              <a href="#" class="footer__info_link">Our Blog</a>
+              <a href="#" class="footer__info_link">FAQ</a>
+              <a href="#" class="footer__info_link">Shipping & Delivery</a>
+              <a href="#" class="footer__info_link">Refund policy</a>
+              <a href="#" class="footer__info_link">Terms of Service</a>
+            </article>
+          </div>
+
+          <!-- Верхняя правая часть подвала -->
+          <div class="footer__info_right footer__info_box">
+            <!-- цитата -->
+            <blockquote class="footer__quote">
+              <h3 class="footer__info_title footer__quote_title">quote</h3>
+              <p class="footer__quote_text">
+                “Tea is a journey. It can take you to new places and open your
+                mind to new experiences. Let every sip transport you to a world
+                of wonder and possibility”
+              </p>
+              <cite class="footer__quote_author"
+                >Dragomir Teodorescu, Tealuxe owner</cite
+              >
+            </blockquote>
+            <!-- контакты -->
+            <article class="footer__contacts">
+              <h3 class="footer__info_title">Stay In Touch</h3>
+              <p class="footer__contacts_text">
+                Please feel free to contact us via the email of phone. We would
+                be happy to hear from you!
+              </p>
+              <div class="footer__contacts_contacts">
+                <a href="#" class="footer__contacts_logo"
+                  ><img src="./images/footer-logo.png" alt="footer-logo" />
+                </a>
+                <div class="footer__contacts_link">
+                  <div class="footer__contacts_tel">
+                    <img src="./images/footer-tel.png" alt="tel" />
+                    <a href="tel:+370680123456" class="footer__contacts_text"
+                      >+370 680 123456</a
+                    >
+                  </div>
+                  <div class="footer__contacts_email">
+                    <img src="./images/footer-email.png" alt="email" />
+                    <a
+                      href="mailto:info@tealuxe.com"
+                      class="footer__contacts_text"
+                      >info@tealuxe.com</a
+                    >
+                  </div>
+                  <div class="footer__contacts_social">
+                    <img src="./images/footer-f.png" alt="f" />
+                    <img src="./images/footer-u.png" alt="u" />
+                    <img src="./images/footer-i.png" alt="i" />
+                    <img src="./images/footer-w.png" alt="w" />
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- нижняя часть подвала -->
+        <section class="footer__footer">
+          <img
+            src="./images/footer-bottom-other.png"
+            alt="other"
+            class="footer__footer_img"
+          />
+        </section>
+      </footer>
+      <!--  -->
+    </main>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document
+          .querySelector(".header__top_mobile_burger")
+          .addEventListener("click", () => {
+            document
+              .querySelector(".header__top_mobile")
+              .classList.toggle("open");
+          });
+      });
+    </script>
+  </body>
+</html>
