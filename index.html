@@ -17,6 +17,7 @@
   <body>
     <!-- шапка сайта -->
     <header class="header">
+      <!--  -->
       <!-- верняя чать шапки десктопная версия -->
       <div class="center header__top_desk">
         <!-- лого -->
@@ -49,9 +50,11 @@
         </div>
       </div>
 
+      <!--  -->
       <!-- верняя чать шапки мобильная версия -->
       <div class="header__top_mobile">
-        <img click
+        <img
+          click
           src="./images/header-burger.png"
           alt="burger"
           class="header__top_mobile_burger"
@@ -73,14 +76,38 @@
             ><img src="./images/header-search.png" alt="search"
           /></a>
         </div>
-        <!-- навигация -->
-        <nav class="header__navs">
-          <a class="header__nav" href="#">Black</a>
-          <a class="header__nav" href="#">Green</a>
-          <a class="header__nav" href="#">White</a>
-          <a class="header__nav" href="#">Oolong</a>
-          <a class="header__nav" href="#">Pu-erh</a>
-        </nav>
+
+        <!-- выпадающее меню -->
+
+        <div class="header__mobile_drop">
+          <img
+            src="./images/header-close.png"
+            alt="close"
+            class="header__close"
+          />
+          <!-- навигация -->
+          <div class="header__mobile_list">
+            <nav class="header__navs">
+              <a class="header__nav" href="#">Black</a>
+              <a class="header__nav" href="#">Green</a>
+              <a class="header__nav" href="#">White</a>
+              <a class="header__nav" href="#">Oolong</a>
+              <a class="header__nav" href="#">Pu-erh</a>
+            </nav>
+            <div class="header__mobile_contacts">
+              <a href="#" class="header__mobile_contact">Contact Us</a>
+              <a href="#" class="header__mobile_contact">Our Blog</a>
+              <a href="#" class="header__mobile_contact"
+                >Shipping and Delivery</a
+              >
+            </div>
+            <div class="header__mobile_personal">
+              <img src="./images/header-basket.png" alt="foto" />
+              <img src="./images/header-profile.png" alt="foto" />
+              <img src="./images/header-search.png" alt="foto" />
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- банер шапки -->
@@ -441,9 +468,17 @@
         document
           .querySelector(".header__top_mobile_burger")
           .addEventListener("click", () => {
-            document
-              .querySelector(".header__top_mobile")
-              .classList.toggle("open");
+            document.querySelector(".header__mobile_drop").style.display =
+              "flex";
+            document.querySelector("body").classList.add("shadow");
+          });
+
+        document
+          .querySelector(".header__close")
+          .addEventListener("click", () => {
+            document.querySelector(".header__mobile_drop").style.display =
+              "none";
+            document.querySelector("body").classList.remove("shadow");
           });
       });
     </script>
